@@ -20,3 +20,5 @@ And in the HTML:
 - add one button with text "Reverse", that will pick the text input and execute the function in the script.js
 - add another text box (read only) to show the output of the previous point
 Also, all the items should be centered in the HTML page
+
+At the end, also I want to add a description for a pull request explaining the changes in markdown
