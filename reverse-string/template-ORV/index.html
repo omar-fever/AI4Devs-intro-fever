@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse String</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        textarea {
+            width: 80%;
+            height: 100px;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 16px;
+            resize: none;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Reverse String Tool</h2>
+    <textarea id="inputText" placeholder="Enter text to reverse..."></textarea>
+    <button onclick="reverseString()">Reverse</button>
+    <textarea id="outputText" readonly placeholder="Reversed text will appear here..."></textarea>
+
+    <script src="script.js"></script>
+</body>
+</html>
